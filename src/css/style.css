@@ -1,6 +1,9 @@
 body {
    font-family: "Inter", sans-serif;
    color: #211b12;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
 .container {
@@ -186,4 +189,125 @@ body {
 
 .card-button-icon {
    margin-right: 5px;
+}
+
+.developer {
+   padding: 80px 0 40px;
+   display: flex;
+   align-items: center;
+}
+
+.developer-photo {
+   width: 360px;
+   height: 440px;
+   flex-shrink: 0;
+   border-radius: 20px;
+   -o-object-fit: cover;
+      object-fit: cover;
+   
+}
+
+.developer-about {
+   margin-left: 55px;
+}
+
+.developer-hello {
+   font-size: 24px;
+   line-height: 135%;
+   margin-bottom: 4px;
+}
+
+.developer-title {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 125%;
+   color: #bf7506;
+   margin: 4px 0 16px;
+}
+
+.developer-text {
+   font-size: 17px;
+   line-height: 150%;
+   max-width: 454px;
+}
+
+.developer-motto {
+   font-size: 24px;
+   line-height: 150%;
+   color: #dd9c3c;
+   margin: 16px 0;
+}
+
+.developer-sign {
+   max-width: 200px;
+}
+
+.skills {
+   padding: 20px 0;
+}
+
+.skills-title {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 135%;
+   margin-bottom: 14px;
+}
+
+.feedback {
+   padding: 100px 0 160px;
+}
+
+.form {
+   max-width: 435px;
+   margin: 0 auto;
+}
+
+.input-group {
+   position: relative;
+   padding-top: 9px;
+   margin-bottom: 24px;
+}
+
+.input-label {
+   position: absolute;
+   top: 0;
+   left: 16px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #83807c;
+   padding: 0 8px;
+   background: #fff;
+}
+
+.input {
+   border: 3px solid #e0dedc;
+   border-radius: 4px;
+   width: 435px;
+   height: 56px;
+}
+
+.input-message {
+   resize: none;
+   min-height: 140px;
+}
+
+.send {
+   display: flex;
+   align-items: center;
+   padding: 7px 8px;
+   margin-left: auto;
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 150%;
+   border: none;
+   border-bottom: 2px solid #bf7506;
+   color: inherit;
+   cursor: pointer;
+   background: #fff;
+}
+
+.send-icon {
+   margin-right: 7px;
 }
