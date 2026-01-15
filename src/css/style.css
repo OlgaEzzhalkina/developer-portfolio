@@ -255,6 +255,14 @@ body {
 
 .feedback {
    padding: 100px 0 160px;
+   position: relative;
+}
+
+.feedback-hand {
+   position: absolute;
+   top: 20%;
+   right: 0;
+   width: 30%;
 }
 
 .form {
